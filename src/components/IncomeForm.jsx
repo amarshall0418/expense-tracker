@@ -51,7 +51,7 @@ export default function IncomeForm() {
           />
           {isError ? (
             <div className="error">
-              <p>Source of income is requered?</p>
+              <p>Source of income is required.</p>
             </div>
           ) : null}
         </div>
@@ -65,7 +65,7 @@ export default function IncomeForm() {
           />
           {isError ? (
             <div className="error">
-              <p>Amount is requered?</p>
+              <p>Amount is required.</p>
             </div>
           ) : null}
         </div>

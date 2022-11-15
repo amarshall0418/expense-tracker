@@ -94,7 +94,7 @@ const ContactForm = () => {
           />
           {error.name ? (
             <div className="error">
-              <p>Name is requered?</p>
+              <p>Name is required.</p>
             </div>
           ) : null}
         </div>
@@ -108,7 +108,7 @@ const ContactForm = () => {
           />
           {error.email ? (
             <div className="error">
-              <p>Email is requered?</p>
+              <p>Email is required.</p>
             </div>
           ) : null}
         </div>
@@ -122,7 +122,7 @@ const ContactForm = () => {
           ></textarea>
           {error.message ? (
             <div className="error">
-              <p>Message is requered?</p>
+              <p>Message is required.</p>
             </div>
           ) : null}
         </div>
